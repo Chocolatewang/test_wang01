@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-E6T8B6S",
+    "children" : [ {
+      "name" : "6728-MainThread",
+      "children" : [ {
+        "name" : "TestWang.test_b",
+        "uid" : "f84e136616373453",
+        "parentUid" : "1e117a36455ca3c8c2d49277041f5ead",
+        "status" : "failed",
+        "time" : {
+          "start" : 1545639959788,
+          "stop" : 1545639959846,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestWang.test_a",
+        "uid" : "90c44c9fe734f493",
+        "parentUid" : "1e117a36455ca3c8c2d49277041f5ead",
+        "status" : "passed",
+        "time" : {
+          "start" : 1545639959778,
+          "stop" : 1545639959785,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e117a36455ca3c8c2d49277041f5ead"
+    } ],
+    "uid" : "e0278fd4b0591fb9ffbf9e1018b86886"
+  } ]
+}

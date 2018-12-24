@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"failed","test_01.TestWang.test_b","58",""
+"passed","test_01.TestWang.test_a","7",""

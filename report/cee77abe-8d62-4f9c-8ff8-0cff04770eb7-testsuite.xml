@@ -1,0 +1,55 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545639959778" stop="1545639959846">
+  <name>test_01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545639959778" status="passed" stop="1545639959785">
+      <name>TestWang.test_a</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6728-MainThread"/>
+        <label name="host" value="DESKTOP-E6T8B6S"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1545639959788" status="failed" stop="1545639959846">
+      <name>TestWang.test_b</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_01.TestWang object at 0x000001E3352F8F98&gt;
+
+    @allure.step("测试登陆的步骤")
+    def test_b(self):
+        print("\n11111")
+        allure.attach("描述1","请输入用户名")
+        print("\n22222")
+        allure.attach("描述2","请输入密码")
+&gt;       assert 0
+E       assert 0
+
+script\test_01.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6728-MainThread"/>
+        <label name="host" value="DESKTOP-E6T8B6S"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545639959790" status="failed" stop="1545639959796">
+          <name>测试登陆的步骤</name>
+          <title>测试登陆的步骤</title>
+          <attachments>
+            <attachment source="a63c4252-2ce4-437a-9349-527387f57f10-attachment.txt" title="描述1" type="text/plain"/>
+            <attachment source="f56ad9f2-b766-4421-81ec-b56a78e14c6e-attachment.txt" title="描述2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

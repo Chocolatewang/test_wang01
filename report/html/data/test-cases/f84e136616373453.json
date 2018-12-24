@@ -1,0 +1,106 @@
+{
+  "uid" : "f84e136616373453",
+  "name" : "TestWang.test_b",
+  "fullName" : "test_01.TestWang.test_b",
+  "historyId" : "3d82931dd01d82cbf4f8dc5ea4c94991",
+  "time" : {
+    "start" : 1545639959788,
+    "stop" : 1545639959846,
+    "duration" : 58
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_01.TestWang object at 0x000001E3352F8F98>\n\n    @allure.step(\"测试登陆的步骤\")\n    def test_b(self):\n        print(\"\\n11111\")\n        allure.attach(\"描述1\",\"请输入用户名\")\n        print(\"\\n22222\")\n        allure.attach(\"描述2\",\"请输入密码\")\n>       assert 0\nE       assert 0\n\nscript\\test_01.py:14: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test_01.TestWang object at 0x000001E3352F8F98>\n\n    @allure.step(\"测试登陆的步骤\")\n    def test_b(self):\n        print(\"\\n11111\")\n        allure.attach(\"描述1\",\"请输入用户名\")\n        print(\"\\n22222\")\n        allure.attach(\"描述2\",\"请输入密码\")\n>       assert 0\nE       assert 0\n\nscript\\test_01.py:14: AssertionError",
+    "steps" : [ {
+      "name" : "测试登陆的步骤",
+      "time" : {
+        "start" : 1545639959790,
+        "stop" : 1545639959796,
+        "duration" : 6
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_01.TestWang object at 0x000001E3352F8F98>\n\n    @allure.step(\"测试登陆的步骤\")\n    def test_b(self):\n        print(\"\\n11111\")\n        allure.attach(\"描述1\",\"请输入用户名\")\n        print(\"\\n22222\")\n        allure.attach(\"描述2\",\"请输入密码\")\n>       assert 0\nE       assert 0\n\nscript\\test_01.py:14: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "139e89420cd1967b",
+        "name" : "描述1",
+        "source" : "139e89420cd1967b.txt",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "7511af6b836a4ef7",
+        "name" : "描述2",
+        "source" : "7511af6b836a4ef7.txt",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E6T8B6S"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "6728-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "testClass",
+    "value" : "test_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestWang.test_b"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f84e136616373453.json",
+  "parameterValues" : [ ]
+}

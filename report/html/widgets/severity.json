@@ -1,0 +1,21 @@
+[ {
+  "uid" : "90c44c9fe734f493",
+  "name" : "TestWang.test_a",
+  "time" : {
+    "start" : 1545639959778,
+    "stop" : 1545639959785,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f84e136616373453",
+  "name" : "TestWang.test_b",
+  "time" : {
+    "start" : 1545639959788,
+    "stop" : 1545639959846,
+    "duration" : 58
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
